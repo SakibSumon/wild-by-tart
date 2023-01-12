@@ -147,8 +147,9 @@
     "video": {
       "type": "video",
       "settings": {
-        "heading": "",
+        "heading": "Eat Less",
         "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/HERO_main_2_6e4d8f5b-69d4-41fa-9abd-234c6dfa6756_1.webp",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
