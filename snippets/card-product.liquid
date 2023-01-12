@@ -20,6 +20,15 @@
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 
+<style>
+  .prod-card-back{
+    background-color: #f7faf8;
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+</style>
+
 {%- if card_product and card_product != empty -%}
   {%- liquid
     assign ratio = 1
@@ -32,7 +41,7 @@
       assign ratio = 1
     endif
   -%}
-  <div class="card-wrapper product-card-wrapper underline-links-hover">
+  <div class="card-wrapper prod-card-back product-card-wrapper underline-links-hover">
     <div
       class="
         card

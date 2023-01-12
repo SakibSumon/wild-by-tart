@@ -8,3 +8,42 @@
 h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5, p{
     font-family: var(--primary-font-family) !important;
 }
+
+.hero-font{
+    font-size: 68px;
+    font-weight: 700;
+    color: black;
+}
+
+.button--primary{
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 15px 46px;
+    border-radius: 26px;
+    text-decoration: none;
+}
+
+.button--primary::after{
+    content: "";
+    border: none;
+      --alpha-button-background: 0;
+}
+
+.button--primary:hover{
+    
+    border:none;
+    --alpha-button-background: 0;
+}
+
+.title{
+    font-size: 42px;
+    font-weight: 600;
+    color: black;
+} 
+
+.section-margin{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
