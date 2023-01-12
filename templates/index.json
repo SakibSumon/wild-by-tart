@@ -111,20 +111,20 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "best-selling"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "hard-bread",
             "second_image": false
           }
         },
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "new"
           }
         }
       },
