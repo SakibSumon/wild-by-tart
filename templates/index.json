@@ -210,6 +210,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "88ce459f-17a6-4677-b888-361830a4207f": {
+      "type": "gift-card",
+      "settings": {
+        "gft_img": "shopify:\/\/shop_images\/annie-spratt-UXGLzFD-jVs-unsplash_1.jpg",
+        "gft_title": "Gift card now available",
+        "gft_txt": "Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
+        "gft_url": "\/"
+      }
     }
   },
   "order": [
@@ -218,6 +227,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "88ce459f-17a6-4677-b888-361830a4207f"
   ]
 }
