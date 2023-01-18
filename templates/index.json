@@ -227,7 +227,7 @@
           "type": "collection_item",
           "settings": {
             "col_img": "shopify:\/\/shop_images\/its-pasta-night.jpg",
-            "col_title": "",
+            "col_title": "Upcoming",
             "col_btn": "",
             "col_url": "\/"
           }
@@ -236,7 +236,7 @@
           "type": "collection_item",
           "settings": {
             "col_img": "shopify:\/\/shop_images\/gourmet-pasta-in-white-bowl.jpg",
-            "col_title": "",
+            "col_title": "Best selling",
             "col_btn": "",
             "col_url": "\/"
           }
@@ -245,7 +245,7 @@
           "type": "collection_item",
           "settings": {
             "col_img": "shopify:\/\/shop_images\/hand-holds-up-a-two-scoop-ice-cream-cone.jpg",
-            "col_title": "",
+            "col_title": "People's choice",
             "col_btn": "",
             "col_url": "\/"
           }
