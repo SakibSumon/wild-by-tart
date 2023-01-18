@@ -1,0 +1,56 @@
+{{ 'gift-card.css' | asset_url | stylesheet_tag }}
+
+<section class="gft-crd page-width section-margin">
+    <div class="gft-crd-div">
+        {% if section.settings.gft_img != null %}
+             {% render 'image', imageSrc: section.settings.gft_img, classes: 'gft-img' %}
+        {% else %}
+            {{ 'product-2' | placeholder_svg_tag: 'gft-img' }}
+        {% endif %}
+    </div>
+    <div class="gft-crd-div">
+        <div class="gft-card-cntnt">
+            <h2 class=" gft-crd-title  "> {{ section.settings.gft_title }} </h2>
+            <p class="gft-card-txt"> {{ section.settings.gft_txt }} </p>
+            <a href="{{ section.settings.gft_url }}" class="gft-card-btn btn-shape">Shop Gift Card</a>
+        </div>
+    </div>
+</section>
+
+
+{% schema %}
+    {   
+        "name": "Gift Card",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "gft_img",
+                "label": "Image"
+            },
+            {
+                "type": "text",
+                "id": "gft_title",
+                "label": "Title"
+            },
+            {
+                "type": "text",
+                "id": "gft_txt",
+                "label": "Text"
+            }
+            ,
+            {
+                "type": "text",
+                "id": "gft_url",
+                "label": "URL",
+                "default": "/"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Gift Card"
+                
+            }
+        ]
+        
+    }
+{% endschema %}

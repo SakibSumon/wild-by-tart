@@ -1,0 +1,40 @@
+.gft-crd{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    /* height: 50vh; */
+}
+
+.gft-crd-div:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gft-img{
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+}
+
+.gft-card-btn{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.gft-card-txt{
+    margin-bottom: 26px;
+}
+
+.gft-crd-title{
+    font-size: 32px;
+    font-weight: 600;
+    margin: 16px 0; 
+}
+
+/* media query for 980px */
+@media screen and (max-width: 980px){
+    .gft-crd{
+        grid-template-columns: 1fr;
+    }
+}

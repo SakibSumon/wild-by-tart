@@ -1,0 +1,66 @@
+{{ 'parallel-col.css' | asset_url | stylesheet_tag }}
+
+<section class="parl-col page-width section-margin">
+  {% for item in section.blocks %}
+    <div class="parl-col__item">
+      <div class="div-overlay"> &nbsp; </div>
+      {% if item.settings.col_img %}
+        {% render 'image', imageSrc: item.settings.col_img, classes: 'par-img' %}
+      {% else %}
+        {{ 'product-2' | placeholder_svg_tag: 'about-us-img' }}
+      {% endif %}
+
+      <div class="parl-col-content">
+        <h3 class="parl-col-title">
+          <a href=" {{ item.settings.col_url }} ">{{ item.settings.col_title }}</a>
+        </h3>
+        <a class="parl-col-txt" href="{{ item.settings.col_url }}">{{ item.settings.col_btn }}</a>
+      </div>
+    </div>
+  {% endfor %}
+</section>
+
+{% schema %}
+  {
+    "name": "Parallel Collection",
+    "settings": [
+      {
+        "type": "text",
+        "id": "sec_title",
+        "label": "Title"
+      }
+    ],
+    "max_blocks": 3,
+    "blocks": [
+      {
+        "name": "Collection Item",
+        "type": "collection_item",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "col_img",
+            "label": "Image"
+          }, {
+            "type": "text",
+            "id": "col_title",
+            "label": "Title"
+          }, {
+            "type": "text",
+            "id": "col_btn",
+            "label": "Button Text"
+          }, {
+            "type": "url",
+            "id": "col_url",
+            "label": "Link to Collection",
+            "default": "/"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Parrallel Collection"
+      }
+    ]
+  }
+{% endschema %}

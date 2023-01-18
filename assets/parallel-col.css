@@ -1,0 +1,50 @@
+.parl-col{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 60vh;
+   
+}
+
+.parl-col__item{
+    position: relative;
+    overflow: hidden;
+}
+
+.par-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+}
+
+.parl-col-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.parl-col-title{
+    font-size: 38px;
+    font-weight: 700;
+    /* text-shadow: 1px 1px 2px #000; */
+}
+
+.parl-col-title a{
+    color: white;
+    text-decoration: none;
+}
+
+.div-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}

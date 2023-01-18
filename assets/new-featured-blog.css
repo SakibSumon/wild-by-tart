@@ -1,0 +1,14 @@
+.article-div {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+}
+
+.article-left{
+    overflow: hidden;
+}
+
+.article-right{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
