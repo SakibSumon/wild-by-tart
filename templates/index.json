@@ -219,6 +219,46 @@
         "gft_txt": "Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum",
         "gft_url": "\/"
       }
+    },
+    "b5e2c7b3-ebfe-4374-977b-274b2b0294b5": {
+      "type": "parallel-col",
+      "blocks": {
+        "64e8ecd0-8dea-4cf0-bb8f-96d38d70352f": {
+          "type": "collection_item",
+          "settings": {
+            "col_img": "shopify:\/\/shop_images\/its-pasta-night.jpg",
+            "col_title": "",
+            "col_btn": "",
+            "col_url": "\/"
+          }
+        },
+        "69916622-79d6-45fa-96a0-626fabd7d8f4": {
+          "type": "collection_item",
+          "settings": {
+            "col_img": "shopify:\/\/shop_images\/gourmet-pasta-in-white-bowl.jpg",
+            "col_title": "",
+            "col_btn": "",
+            "col_url": "\/"
+          }
+        },
+        "df37d9b7-b5dc-47a2-ba1d-4c6d47986404": {
+          "type": "collection_item",
+          "settings": {
+            "col_img": "shopify:\/\/shop_images\/hand-holds-up-a-two-scoop-ice-cream-cone.jpg",
+            "col_title": "",
+            "col_btn": "",
+            "col_url": "\/"
+          }
+        }
+      },
+      "block_order": [
+        "64e8ecd0-8dea-4cf0-bb8f-96d38d70352f",
+        "69916622-79d6-45fa-96a0-626fabd7d8f4",
+        "df37d9b7-b5dc-47a2-ba1d-4c6d47986404"
+      ],
+      "settings": {
+        "sec_title": ""
+      }
     }
   },
   "order": [
@@ -228,6 +268,7 @@
     "collage",
     "video",
     "multicolumn",
-    "88ce459f-17a6-4677-b888-361830a4207f"
+    "88ce459f-17a6-4677-b888-361830a4207f",
+    "b5e2c7b3-ebfe-4374-977b-274b2b0294b5"
   ]
 }
